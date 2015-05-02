@@ -13,8 +13,7 @@ app.config([
     
     $routeProvider.
       when('/', {
-      templateUrl: 'inicio.html',
-      controller: 'MyCtrl'
+        templateUrl: 'inicio.html'
       }).
      when('/tareas', {
       templateUrl: 'tareas.html'
